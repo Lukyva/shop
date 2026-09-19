@@ -1,0 +1,121 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUXE — Modern Essentials</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/styles.css' %}"
+
+</head>
+<body>
+
+<nav>
+    <div class="logo">LUXE.</div>
+    <div class="nav-links">
+        <a href="#products">Shop</a>
+        <a href="#collection">Collection</a>
+        <a href="#footer">Contact</a>
+    </div>
+    <div class="nav-actions">
+        <span class="cart">Cart (2)</span>
+        <button class="btn-small">Shop Now</button>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <span class="eyebrow">New Collection 2026</span>
+        <h1>Essential<br><span class="stroke">Form</span><br>Modern Life</h1>
+        <p>Curated essentials designed to last. Minimal, functional, and made with premium materials for everyday use.</p>
+        <div class="hero-btns">
+            <button class="btn-primary">Explore Collection →</button>
+            <div class="rating">
+                <div class="avatars">
+                    <div class="av"></div><div class="av av2"></div><div class="av av3"></div>
+                </div>
+                <span><strong>4.9/5</strong> from 2.4k reviews</span>
+            </div>
+        </div>
+    </div>
+    <div class="hero-image">
+        <div class="product-card floating">
+            <div class="tag">BEST SELLER</div>
+            <div class="img-placeholder">👜</div>
+            <div class="card-info">
+                <h4>Studio Tote Bag</h4>
+                <p>$149.00</p>
+            </div>
+        </div>
+        <div class="circle-bg"></div>
+    </div>
+</section>
+
+<section class="brands">
+    <span>AS SEEN IN</span>
+    <div class="brand-list">
+        <b>VOGUE</b><b>WIRED</b><b>GQ</b><b>FORBES</b><b>ELLE</b>
+    </div>
+</section>
+
+<section id="products" class="products">
+    <div class="section-head">
+        <h2>Best Sellers</h2>
+        <a href="#">View all →</a>
+    </div>
+    <div class="grid">
+        <div class="p-card">
+            <div class="p-img">🎒</div>
+            <div class="p-meta"><h3>Daypack Pro</h3><span>$89</span></div>
+            <p>Waterproof • 20L • Lifetime warranty</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="p-card featured">
+            <div class="badge">-20%</div>
+            <div class="p-img">👟</div>
+            <div class="p-meta"><h3>Cloud Runner</h3><span><s>$180</s> $144</span></div>
+            <p>Ultra-light • Knitted • All-day comfort</p>
+            <button class="dark">Add to Cart</button>
+        </div>
+        <div class="p-card">
+            <div class="p-img">🧢</div>
+            <div class="p-meta"><h3>Cap 01</h3><span>$35</span></div>
+            <p>Organic cotton • Adjustable • Unisex</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<section id="collection" class="banner">
+    <div class="banner-content">
+        <h2>Built to last.<br>Designed to fade in.</h2>
+        <p>We don't do trends. We do pieces that get better with time.</p>
+        <div class="stats">
+            <div><h3>15k+</h3><span>Happy Customers</span></div>
+            <div><h3>4.9</h3><span>Average Rating</span></div>
+            <div><h3>2yr</h3><span>Warranty</span></div>
+        </div>
+    </div>
+    <div class="banner-image">Minimal design, maximum function.</div>
+</section>
+
+<footer id="footer">
+    <div class="footer-top">
+        <h2>LUXE.</h2>
+        <div class="newsletter">
+            <p>Get 10% off your first order</p>
+            <div class="input-group">
+                <input type="email" placeholder="Your email">
+                <button>Join</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 LUXE. All rights reserved.</p>
+        <div class="links"><a>Instagram</a><a>Twitter</a><a>Privacy</a></div>
+    </div>
+</footer>
+
+</body>
+</html>
